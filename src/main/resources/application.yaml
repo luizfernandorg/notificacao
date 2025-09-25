@@ -4,7 +4,7 @@ spring:
     port: 587
     username:
     password:
-    protocolo: smtp
+    protocol: smtp
     properties:
       mail:
         smtp:
@@ -24,7 +24,7 @@ spring:
 envio:
   email:
     remetente:
-    nomeRemetente:
+    nomeRemetente: 
 
 server:
   port: 8082
